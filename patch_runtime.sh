@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -x
+
 SUDO=`which sudo`
 read -r -d '' PATCH <<'EOF'
 diff --git src/runtime/runtime.go src/runtime/runtime.go
